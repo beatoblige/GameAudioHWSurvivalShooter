@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_GameAudioHWSurvivalShooter.340268546.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Complete-Game" t="Include">
+          <e p="MobileInput" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="CrossPlatformInputManager.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CrossPlatformInputInitialize.cs" t="Include" />
+              </e>
+              <e p="Joystick.cs" t="Include" />
+              <e p="MobileControlRig.cs" t="Include" />
+              <e p="PlatformSpecific" t="Include">
+                <e p="MobileInput.cs" t="Include" />
+                <e p="StandaloneInput.cs" t="Include" />
+              </e>
+              <e p="VirtualInput.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Audio" t="Include">
+              <e p="MixLevels.cs" t="Include" />
+            </e>
+            <e p="Camera" t="Include">
+              <e p="CameraFollow.cs" t="Include" />
+            </e>
+            <e p="Enemy" t="Include">
+              <e p="EnemyAttack.cs" t="Include" />
+              <e p="EnemyHealth.cs" t="Include" />
+              <e p="EnemyMovement.cs" t="Include" />
+            </e>
+            <e p="Helpers" t="Include">
+              <e p="RandomAnimationPoint.cs" t="Include" />
+              <e p="RandomParticlePoint.cs" t="Include" />
+              <e p="VolumeHandler.cs" t="Include" />
+            </e>
+            <e p="Managers" t="Include">
+              <e p="EnemyManager.cs" t="Include" />
+              <e p="GameOverManager.cs" t="Include" />
+              <e p="PauseManager.cs" t="Include" />
+              <e p="ScoreManager.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="PlayerHealth.cs" t="Include" />
+              <e p="PlayerMovement.cs" t="Include" />
+              <e p="PlayerShooting.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Fonts" t="Include">
+          <e p="LuckiestGuy" t="Include">
+            <e p="FontLicense.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="AudioScripts" t="Include">
+            <e p="CollisionAudio.cs" t="Include" />
+            <e p="CSharp01.cs" t="Include" />
+            <e p="CSharp02.cs" t="Include" />
+            <e p="CSharp03.cs" t="Include" />
+            <e p="CSharp04.cs" t="Include" />
+            <e p="CSharp05.cs" t="Include" />
+            <e p="CSharp06.cs" t="Include" />
+            <e p="CSharp07a.cs" t="Include" />
+            <e p="CSharp07b.cs" t="Include" />
+            <e p="CSharp08.cs" t="Include" />
+            <e p="CSharp09.cs" t="Include" />
+            <e p="CSharp10.cs" t="Include" />
+            <e p="GetAudio.cs" t="Include" />
+            <e p="RandomSounds.cs" t="Include" />
+          </e>
+          <e p="Enemy" t="Include">
+            <e p="EnemyAttack.cs" t="Include" />
+            <e p="EnemyHealth.cs" t="Include" />
+            <e p="EnemyMovement.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="EnemyManager.cs" t="Include" />
+            <e p="GameOverManager.cs" t="Include" />
+            <e p="ScoreManager.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="PlayerHealth.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+            <e p="PlayerShooting.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SurvivalShooter_Third-PartyNotice.txt" t="Include" />
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="GameAudioHWSurvivalShooter.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
