@@ -240,7 +240,15 @@ MonoBehaviour:
   currentHealth: 0
   sinkSpeed: 2.5
   scoreValue: 10
-  deathClip: {fileID: 8300000, guid: 1d3bfb9269f136947bf8ac164cace1ff, type: 3}
+  deathClip:
+  - {fileID: 8300000, guid: f21bf486b88394c628b258a5ad784dab, type: 3}
+  - {fileID: 8300000, guid: fb2f1d1dea93d4ee2a65e14ee46829ec, type: 3}
+  - {fileID: 8300000, guid: ae35e380c2bbe44dd995eedc3e72e089, type: 3}
+  - {fileID: 8300000, guid: f21bf486b88394c628b258a5ad784dab, type: 3}
+  currentClip: 0
+  amp: 1
+  pch: 1
+  frq: 5
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,9 +273,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8494031fccb854322ab1547c095c68f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
-  - {fileID: 8300000, guid: e56e2202df91940aabaf99b47f8be545, type: 3}
+  damageSound:
+  - {fileID: 8300000, guid: 43b009826e0fc4f46b9c658e00a0c9e4, type: 3}
   - {fileID: 8300000, guid: 36dc32006818a43d29d977e048c29fe1, type: 3}
+  - {fileID: 8300000, guid: e56e2202df91940aabaf99b47f8be545, type: 3}
   - {fileID: 8300000, guid: 43b009826e0fc4f46b9c658e00a0c9e4, type: 3}
   currentClip: 0
   amp: 1
@@ -298,7 +307,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:

@@ -158,7 +158,14 @@ MonoBehaviour:
   currentHealth: 0
   sinkSpeed: 2.5
   scoreValue: 10
-  deathClip: {fileID: 8300000, guid: 62366b8d2c37a49dca550841c741317f, type: 3}
+  deathClip:
+  - {fileID: 8300000, guid: 7ae46edf0fb344d2a96970362fd3e38d, type: 3}
+  - {fileID: 8300000, guid: bb41557b5c2534495ac623dd8a8b3059, type: 3}
+  - {fileID: 8300000, guid: 854287be931f0407f8b85d03ac8e8914, type: 3}
+  currentClip: 0
+  amp: 1
+  pch: 1
+  frq: 5
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,7 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8494031fccb854322ab1547c095c68f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
+  damageSound:
   - {fileID: 8300000, guid: 749344e494f494ecc8a8d39198d76fdf, type: 3}
   - {fileID: 8300000, guid: 310cc9231722044b994a741835dc5911, type: 3}
   - {fileID: 8300000, guid: 7c24f2f40c97f4760bd5f500f0a5c3dd, type: 3}

@@ -9655,13 +9655,13 @@ GameObject:
   - component: {fileID: 418926}
   - component: {fileID: 9583922}
   - component: {fileID: 5499234}
-  - component: {fileID: 4053750623602651962}
   - component: {fileID: 8279214}
   - component: {fileID: 19546556}
   - component: {fileID: 13536644}
   - component: {fileID: 13644992}
   - component: {fileID: 11487314}
   - component: {fileID: 11402556}
+  - component: {fileID: 6708712339153187105}
   - component: {fileID: 11415352}
   m_Layer: 9
   m_Name: Hellephant
@@ -9723,26 +9723,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
---- !u!114 &4053750623602651962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8494031fccb854322ab1547c095c68f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - {fileID: 8300000, guid: 59cbebc82cccb424794ac633decbf4c7, type: 3}
-  - {fileID: 8300000, guid: 2df3d514a1d14417689375ba89778ef6, type: 3}
-  - {fileID: 8300000, guid: a2a8d11bcb1904bbeb5058309d1a45a9, type: 3}
-  currentClip: 0
-  amp: 1
-  pch: 1
-  frq: 5
 --- !u!82 &8279214
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9754,7 +9734,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 8434b04884c414ac6b468e10945685e6,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: fce027b40770a44298a6f5a4233bfb04, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 59cbebc82cccb424794ac633decbf4c7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9917,7 +9897,34 @@ MonoBehaviour:
   currentHealth: 0
   sinkSpeed: 2.5
   scoreValue: 50
-  deathClip: {fileID: 8300000, guid: 8c615fd0429f34edf85539d70279360d, type: 3}
+  deathClip:
+  - {fileID: 8300000, guid: 2a1e1a1529e2b4903850370b9a82ed2b, type: 3}
+  - {fileID: 8300000, guid: 2a1e1a1529e2b4903850370b9a82ed2b, type: 3}
+  - {fileID: 8300000, guid: 169d5c842c1584d008ddf3960dee1724, type: 3}
+  currentClip: 0
+  amp: 1
+  pch: 1
+  frq: 5
+--- !u!114 &6708712339153187105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8494031fccb854322ab1547c095c68f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageSound:
+  - {fileID: 8300000, guid: 59cbebc82cccb424794ac633decbf4c7, type: 3}
+  - {fileID: 8300000, guid: 2df3d514a1d14417689375ba89778ef6, type: 3}
+  - {fileID: 8300000, guid: a2a8d11bcb1904bbeb5058309d1a45a9, type: 3}
+  currentClip: 0
+  amp: 1
+  pch: 1
+  frq: 5
 --- !u!114 &11415352
 MonoBehaviour:
   m_ObjectHideFlags: 0

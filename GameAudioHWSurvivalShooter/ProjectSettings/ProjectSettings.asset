@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 00000000000000000000000000000000
+  productGUID: 419c2adcd4d824ed6b7b30405fa66d56
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -708,7 +708,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   cloudProjectId: 8795ef8e-6d18-498c-94cb-8c895dc7c629
   framebufferDepthMemorylessMode: 0
-  projectName: Space Shooter
+  projectName: GameAudioHWSurvivalShooter
   organizationId: smlewis909
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

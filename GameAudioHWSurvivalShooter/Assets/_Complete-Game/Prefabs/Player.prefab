@@ -171,6 +171,8 @@ GameObject:
   - component: {fileID: 400004}
   - component: {fileID: 19900000}
   - component: {fileID: 19800000}
+  - component: {fileID: 9018625914303812911}
+  - component: {fileID: 5096181901098334720}
   - component: {fileID: 8200000}
   - component: {fileID: 12000000}
   - component: {fileID: 11400000}
@@ -4930,6 +4932,41 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &9018625914303812911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fefa3a59f1f24f668bc8618cac65676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: fa7f046ce321d4021b5e753bf1152916, type: 3}
+--- !u!114 &5096181901098334720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8494031fccb854322ab1547c095c68f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageSound:
+  - {fileID: 8300000, guid: 3315eb6793f484764b2d74784355fabb, type: 3}
+  - {fileID: 8300000, guid: 82cefcd06bef5477a862f0c5fe69b16e, type: 3}
+  - {fileID: 8300000, guid: acdaf0835d82e4477980c4c1ec62dd9c, type: 3}
+  - {fileID: 8300000, guid: ffd8afd4cb8cf4ff697a5db39ba4a6ff, type: 3}
+  - {fileID: 8300000, guid: fa7f046ce321d4021b5e753bf1152916, type: 3}
+  currentClip: 5
+  amp: 1
+  pch: 1
+  frq: 5
 --- !u!82 &8200000
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5260,7 +5297,16 @@ MonoBehaviour:
   currentHealth: 0
   healthSlider: {fileID: 0}
   damageImage: {fileID: 0}
-  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
+  deathClip:
+  - {fileID: 8300000, guid: 28bd30a1acff84681adaeed593a600d3, type: 3}
+  - {fileID: 8300000, guid: 70a28629ef31b4a43a63a43f97a00e62, type: 3}
+  - {fileID: 8300000, guid: eac0474a016644c299aaf4ac49f14159, type: 3}
+  - {fileID: 8300000, guid: 5c30bb9fb004d4458988aee2c2974574, type: 3}
+  - {fileID: 8300000, guid: 70a28629ef31b4a43a63a43f97a00e62, type: 3}
+  currentClip: 0
+  amp: 1
+  pch: 1
+  frq: 5
   flashSpeed: 5
   flashColour: {r: 1, g: 0, b: 0, a: 0.09803922}
 --- !u!54 &5400000
@@ -5318,16 +5364,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8494031fccb854322ab1547c095c68f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
+  damageSound:
   - {fileID: 8300000, guid: 3315eb6793f484764b2d74784355fabb, type: 3}
   - {fileID: 8300000, guid: 82cefcd06bef5477a862f0c5fe69b16e, type: 3}
   - {fileID: 8300000, guid: acdaf0835d82e4477980c4c1ec62dd9c, type: 3}
-  - {fileID: 8300000, guid: acdaf0835d82e4477980c4c1ec62dd9c, type: 3}
   - {fileID: 8300000, guid: b65ada229e95b4a00af41605742b4ebd, type: 3}
-  currentClip: 0
-  amp: 1
-  pch: 1
-  frq: 5
+  currentClip: 4
+  amp: 0.5
+  pch: 2
+  frq: 10
 --- !u!82 &8200002
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5339,9 +5384,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300000, guid: 8434b04884c414ac6b468e10945685e6,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 9922a12f34d0a084aab32de985459723, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3315eb6793f484764b2d74784355fabb, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.72
   m_Pitch: 1
   Loop: 0
   Mute: 0

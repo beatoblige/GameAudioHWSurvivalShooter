@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4d56ed3-baf4-4eff-b2b7-3ea11e327f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixers/MasterMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixers/MasterMixer.mixer" afterDir="false" />
+    <list default="true" id="c4d56ed3-baf4-4eff-b2b7-3ea11e327f53" name="Default Changelist" comment="Randomization of sound in player and enemies, background music added. Scripts added as well.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameAudioHWSurvivalShooter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Hellephant Death.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Hellephant Death.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Hellephant Hurt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Hellephant Hurt.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Player Death.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Player Death.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Player GunShot.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Player GunShot.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Player Hurt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/Player Hurt.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/ZomBear Death.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/ZomBear Death.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/ZomBear Hurt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/ZomBear Hurt.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/ZomBunny Death.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/ZomBunny Death.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/ZomBunny Hurt.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Effects/ZomBunny Hurt.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Complete-Game/Prefabs/Hellephant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Complete-Game/Prefabs/Hellephant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Complete-Game/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Complete-Game/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Complete-Game/Prefabs/ZomBear.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Complete-Game/Prefabs/ZomBear.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Complete-Game/Prefabs/ZomBunny.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Complete-Game/Prefabs/ZomBunny.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Enemy/EnemyHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Complete-Game/_Complete-Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Complete-Game/_Complete-Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,12 +36,154 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1544632137000" expanded="false" signature="6:62" ph="..." />
+                <marker date="1544632137000" expanded="true" signature="89:4397" ph="{...}" />
+                <marker date="1544632137000" expanded="true" signature="139:4395" ph="{...}" />
+                <marker date="1544632137000" expanded="true" signature="784:1079" ph="{...}" />
+                <marker date="1544632137000" expanded="true" signature="1109:1535" ph="{...}" />
+                <marker date="1544632137000" expanded="true" signature="1574:2022" ph="{...}" />
+                <marker date="1544632137000" expanded="true" signature="2048:4071" ph="{...}" />
+                <marker date="1544632137000" expanded="true" signature="2538:3191" ph="{...}" />
+                <marker date="1544632137000" expanded="true" signature="4115:4389" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerShooting.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1544632115000" expanded="false" signature="6:62" ph="..." />
+                <marker date="1544632115000" expanded="true" signature="89:5105" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="139:5103" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="1412:1857" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="1882:2926" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="2181:2273" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="2809:2916" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="2966:3147" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="3171:5097" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="4154:4769" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="4434:4603" ph="{...}" />
+                <marker date="1544632115000" expanded="true" signature="4862:5087" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/CSharp06.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1443664482000" expanded="true" signature="0:205" ph="/* Game Audio  - Jean-Luc Sinclair Professor. ... */" />
+                <marker date="1443664482000" expanded="false" signature="214:252" ph="..." />
+                <marker date="1443664482000" expanded="true" signature="401:1436" ph="{...}" />
+                <marker date="1443664482000" expanded="true" signature="485:538" ph="{...}" />
+                <marker date="1443664482000" expanded="true" signature="620:1068" ph="{...}" />
+                <marker date="1443664482000" expanded="true" signature="749:1064" ph="{...}" />
+                <marker date="1443664482000" expanded="true" signature="1139:1433" ph="{...}" />
+                <marker date="1443664482000" expanded="true" signature="1208:1427" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerHealth.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="114" column="47" lean-forward="true" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
+              <folding>
+                <marker date="1552278265525" expanded="false" signature="6:101" ph="..." />
+                <marker date="1552278265525" expanded="true" signature="128:5678" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="176:5676" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="1855:2241" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="2275:2855" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="2877:3544" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="3569:4134" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="3657:3812" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="3857:4055" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="4180:4817" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="4715:4807" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="4841:5514" ph="{...}" />
+                <marker date="1552278265525" expanded="true" signature="5552:5670" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Enemy/EnemyHealth.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+              <folding>
+                <marker date="1552278265520" expanded="true" signature="45:5344" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="92:5342" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="1360:1746" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="1780:2360" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="2391:2998" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="3023:3298" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="3108:3288" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="3362:4170" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="4064:4160" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="4194:4710" ph="{...}" />
+                <marker date="1552278265520" expanded="true" signature="4748:5336" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/RandomSounds.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <marker date="1552265373748" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552265373748" expanded="true" signature="121:1680" ph="{...}" />
+                <marker date="1552265373748" expanded="true" signature="488:1020" ph="{...}" />
+                <marker date="1552265373748" expanded="true" signature="1026:1300" ph="/* If path refers to a folder, all assets in the folder will be returned. If path refers to a file, ... */" />
+                <marker date="1552265373748" expanded="true" signature="1318:1674" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/RandomSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/CSharp06.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Enemy/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioScripts/RandomSounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Enemy/EnemyHealth.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="250" />
-    <option name="y" value="444" />
+    <option name="x" value="-92" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="831" />
   </component>
@@ -38,14 +194,14 @@
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -94,11 +250,13 @@
       <updated>1552248041981</updated>
       <workItem from="1552248043948" duration="32000" />
       <workItem from="1552248611740" duration="497000" />
+      <workItem from="1552262384125" duration="1531000" />
+      <workItem from="1552264856571" duration="4482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="529000" />
+    <option name="totallyTimeSpent" value="6542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -110,15 +268,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="250" y="444" width="1440" height="831" extended-state="0" />
+    <frame x="-92" y="23" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -133,11 +290,12 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Unity" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="4" weight="0.3297568" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
@@ -155,5 +313,116 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1544632137000" expanded="false" signature="6:62" ph="..." />
+            <marker date="1544632137000" expanded="true" signature="89:4397" ph="{...}" />
+            <marker date="1544632137000" expanded="true" signature="139:4395" ph="{...}" />
+            <marker date="1544632137000" expanded="true" signature="784:1079" ph="{...}" />
+            <marker date="1544632137000" expanded="true" signature="1109:1535" ph="{...}" />
+            <marker date="1544632137000" expanded="true" signature="1574:2022" ph="{...}" />
+            <marker date="1544632137000" expanded="true" signature="2048:4071" ph="{...}" />
+            <marker date="1544632137000" expanded="true" signature="2538:3191" ph="{...}" />
+            <marker date="1544632137000" expanded="true" signature="4115:4389" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/RandomSounds.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <marker date="1552265373748" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552265373748" expanded="true" signature="121:1680" ph="{...}" />
+            <marker date="1552265373748" expanded="true" signature="488:1020" ph="{...}" />
+            <marker date="1552265373748" expanded="true" signature="1026:1300" ph="/* If path refers to a folder, all assets in the folder will be returned. If path refers to a file, ... */" />
+            <marker date="1552265373748" expanded="true" signature="1318:1674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Enemy/EnemyHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="128" column="22" selection-start-line="128" selection-start-column="22" selection-end-line="128" selection-end-column="22" />
+          <folding>
+            <marker date="1552278265520" expanded="true" signature="45:5344" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="92:5342" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="1360:1746" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="1780:2360" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="2391:2998" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="3023:3298" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="3108:3288" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="3362:4170" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="4064:4160" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="4194:4710" ph="{...}" />
+            <marker date="1552278265520" expanded="true" signature="4748:5336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerShooting.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1544632115000" expanded="false" signature="6:62" ph="..." />
+            <marker date="1544632115000" expanded="true" signature="89:5105" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="139:5103" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="1412:1857" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="1882:2926" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="2181:2273" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="2809:2916" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="2966:3147" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="3171:5097" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="4154:4769" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="4434:4603" ph="{...}" />
+            <marker date="1544632115000" expanded="true" signature="4862:5087" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AudioScripts/CSharp06.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1443664482000" expanded="true" signature="0:205" ph="/* Game Audio  - Jean-Luc Sinclair Professor. ... */" />
+            <marker date="1443664482000" expanded="false" signature="214:252" ph="..." />
+            <marker date="1443664482000" expanded="true" signature="401:1436" ph="{...}" />
+            <marker date="1443664482000" expanded="true" signature="485:538" ph="{...}" />
+            <marker date="1443664482000" expanded="true" signature="620:1068" ph="{...}" />
+            <marker date="1443664482000" expanded="true" signature="749:1064" ph="{...}" />
+            <marker date="1443664482000" expanded="true" signature="1139:1433" ph="{...}" />
+            <marker date="1443664482000" expanded="true" signature="1208:1427" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Complete-Game/Scripts/Player/PlayerHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="114" column="47" lean-forward="true" selection-start-line="114" selection-start-column="47" selection-end-line="114" selection-end-column="47" />
+          <folding>
+            <marker date="1552278265525" expanded="false" signature="6:101" ph="..." />
+            <marker date="1552278265525" expanded="true" signature="128:5678" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="176:5676" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="1855:2241" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="2275:2855" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="2877:3544" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="3569:4134" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="3657:3812" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="3857:4055" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="4180:4817" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="4715:4807" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="4841:5514" ph="{...}" />
+            <marker date="1552278265525" expanded="true" signature="5552:5670" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
